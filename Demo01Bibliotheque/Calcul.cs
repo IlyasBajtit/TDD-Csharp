@@ -6,5 +6,13 @@
         { 
             return x + y; 
         }
+
+        public double Division(double x, double y)
+        {
+            return x / y;
+
+
+            throw new NotImplementedException("Division par 0 impossible");
+        }
     }
 }
