@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Exercice1-Nunit\Exercice1-Nunit.csproj" />
+  </ItemGroup>
+
 </Project>
