@@ -23,4 +23,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Bibliotheque.EX2\Bibliotheque.EX2.csproj" />
+  </ItemGroup>
+
 </Project>
