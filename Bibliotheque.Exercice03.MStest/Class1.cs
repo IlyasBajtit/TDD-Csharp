@@ -1,13 +1,16 @@
 ﻿namespace Bibliotheque.Exercice03.MStest
 {
-    public class RechercheVille
+    public class Class1
     {
-        private List<String> _villes;
-
-        public List<String> Rechercher(String mot)
+        public class RechercheVille
         {
-            throw new NotImplementedException();
+            private List<String> _villes;
+
+            public List<String> Rechercher(String mot)
+            {
+                throw new NotImplementedException();
+            }
         }
+
     }
 }
-

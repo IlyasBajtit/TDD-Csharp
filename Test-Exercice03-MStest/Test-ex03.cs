@@ -1,11 +1,19 @@
+using static Bibliotheque.Exercice03.MStest.Class1;
+
 namespace Test_Exercice03_MStest
+{ [TestClass]
+public class RechercheVilleTests
 {
-    [TestClass]
-    public class UnitTest1
+    [TestMethod]
+    public void Rechercher_ReturnsEmptyList_WhenNoMatchFound()
     {
-        [TestMethod]
-        public void TestMethod1()
-        {
-        }
+        var rechercheVille = new RechercheVille();
+        var mot = "Unknown";
+
+        var result = rechercheVille.Rechercher(mot);
+
+        Assert.IsNotNull(result);
+        Assert.AreEqual(0, result.Count);
     }
+}
 }
