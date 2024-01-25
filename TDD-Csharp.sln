@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo01Bibliotheque", "Demo01Bibliotheque\Demo01Bibliotheque.csproj", "{77C97BDD-2C0D-48DE-901C-45479E430FDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo01Bibliotheque", "Demo01Bibliotheque\Demo01Bibliotheque.csproj", "{77C97BDD-2C0D-48DE-901C-45479E430FDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo01.Tests", "Demo01.Tests\Demo01.Tests.csproj", "{B3EEBCEB-0229-42C3-AB46-40453029227A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo01.Tests", "Demo01.Tests\Demo01.Tests.csproj", "{B3EEBCEB-0229-42C3-AB46-40453029227A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice1-Nunit", "Exercice1-Nunit\Exercice1-Nunit.csproj", "{B0B3B6FE-D2A8-4437-8D09-AA4D728E8EFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice1-Nunit", "Exercice1-Nunit\Exercice1-Nunit.csproj", "{B0B3B6FE-D2A8-4437-8D09-AA4D728E8EFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice1.Bibliotheque", "Exercice1.Bibliotheque\Exercice1.Bibliotheque.csproj", "{20E9AFC0-F6B5-49EC-80EE-A72505990AE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice1.Bibliotheque", "Exercice1.Bibliotheque\Exercice1.Bibliotheque.csproj", "{20E9AFC0-F6B5-49EC-80EE-A72505990AE7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercice01Nunit", "Exercice01Nunit", "{9922B97B-8BBE-4663-A850-44A37009D6DD}"
 EndProject
@@ -17,9 +17,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoTDD", "DemoTDD", "{B7F7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercice.02.Xunit", "Exercice.02.Xunit", "{82C8775F-1468-486B-948C-3FC7406FB6B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bibliotheque.EX2", "Bibliotheque.EX2\Bibliotheque.EX2.csproj", "{282BD0D6-5207-4A96-94A8-772FD0AC5B0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bibliotheque.EX2", "Bibliotheque.EX2\Bibliotheque.EX2.csproj", "{282BD0D6-5207-4A96-94A8-772FD0AC5B0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX2.Test-Xunit", "EX2.Test-Xunit\EX2.Test-Xunit.csproj", "{E4399B2E-4D72-438B-A662-112DB5213564}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX2.Test-Xunit", "EX2.Test-Xunit\EX2.Test-Xunit.csproj", "{E4399B2E-4D72-438B-A662-112DB5213564}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercice03.TDD", "Exercice03.TDD", "{F5A0DDDB-F15F-4D0C-BC66-114CF352850F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bibliotheque.Exercice03.MStest", "Bibliotheque.Exercice03.MStest\Bibliotheque.Exercice03.MStest.csproj", "{621397F5-5026-42E6-9320-D17CAAF4CDB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-Exercice03-MStest", "Test-Exercice03-MStest\Test-Exercice03-MStest.csproj", "{A948B2D3-467B-4A7B-A0F9-DC644E1C326F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,14 @@ Global
 		{E4399B2E-4D72-438B-A662-112DB5213564}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4399B2E-4D72-438B-A662-112DB5213564}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4399B2E-4D72-438B-A662-112DB5213564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{621397F5-5026-42E6-9320-D17CAAF4CDB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{621397F5-5026-42E6-9320-D17CAAF4CDB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{621397F5-5026-42E6-9320-D17CAAF4CDB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{621397F5-5026-42E6-9320-D17CAAF4CDB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A948B2D3-467B-4A7B-A0F9-DC644E1C326F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A948B2D3-467B-4A7B-A0F9-DC644E1C326F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A948B2D3-467B-4A7B-A0F9-DC644E1C326F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A948B2D3-467B-4A7B-A0F9-DC644E1C326F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +76,8 @@ Global
 		{20E9AFC0-F6B5-49EC-80EE-A72505990AE7} = {9922B97B-8BBE-4663-A850-44A37009D6DD}
 		{282BD0D6-5207-4A96-94A8-772FD0AC5B0E} = {82C8775F-1468-486B-948C-3FC7406FB6B4}
 		{E4399B2E-4D72-438B-A662-112DB5213564} = {82C8775F-1468-486B-948C-3FC7406FB6B4}
+		{621397F5-5026-42E6-9320-D17CAAF4CDB2} = {F5A0DDDB-F15F-4D0C-BC66-114CF352850F}
+		{A948B2D3-467B-4A7B-A0F9-DC644E1C326F} = {F5A0DDDB-F15F-4D0C-BC66-114CF352850F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FFE45718-068B-4943-9C51-02408C2258E7}
