@@ -6,11 +6,22 @@
         {
             private List<String> _villes;
 
-            public List<String> Rechercher(String mot)
+            public RechercheVille(List<string> villes)
             {
-                throw new NotImplementedException();
+                _villes = villes;
+            }
+
+
+            public class Ville
+            {
+                public static List<string> Villes = new List<string> {
+            "Paris", "Budapest", "Skopje", "Rotterdam", "Valence",
+            "Vancouver", "Amsterdam", "Vienne", "Sydney", "New York",
+            "Londres", "Bangkok", "Hong Kong", "Dubai", "Rome", "Istanbul"
+        };
+
             }
         }
-
     }
 }
+
