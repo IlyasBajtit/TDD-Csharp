@@ -1,3 +1,4 @@
+using Bibliotheque.Exercice03.MStest;
 using static Bibliotheque.Exercice03.MStest.Class1;
 
 namespace Test_Exercice03_MStest
@@ -5,15 +6,11 @@ namespace Test_Exercice03_MStest
 public class RechercheVilleTests
 {
     [TestMethod]
-    public void Rechercher_ReturnsEmptyList_WhenNoMatchFound()
+    public void RechercheVille_LancerExceptionSiTexteTropCourt()
     {
-        var rechercheVille = new RechercheVille();
-        var mot = "Unknown";
+        var rechercheVille = new Class1(new List<string>());
 
-        var result = rechercheVille.Rechercher(mot);
-
-        Assert.IsNotNull(result);
-        Assert.AreEqual(0, result.Count);
+        Assert.ThrowsException<NotFoundException>(() => rechercheVille.Recherche("a"));
     }
 }
 }
