@@ -2,26 +2,29 @@
 {
     public class Class1
     {
-        public class RechercheVille
-        {
-            private List<String> _villes;
-
-            public RechercheVille(List<string> villes)
-            {
-                _villes = villes;
-            }
+        private List<String> _villes;
 
 
-            public class Ville
-            {
-                public static List<string> Villes = new List<string> {
+        public static List<string> Villes = new List<string> {
             "Paris", "Budapest", "Skopje", "Rotterdam", "Valence",
             "Vancouver", "Amsterdam", "Vienne", "Sydney", "New York",
             "Londres", "Bangkok", "Hong Kong", "Dubai", "Rome", "Istanbul"
         };
 
+        public List<string> Rechercher(string mot)
+        {
+            if (mot == "*")
+            {
+                return _villes;
             }
+            if (mot.Length < 2)
+            {
+                throw new NotFoundException();
+            }
+            return _villes.Where(ville => ville.ToLower().Contains(mot.ToLower())).ToList();
         }
+
     }
 }
+
 
